@@ -7,4 +7,4 @@
 
 ## Start with
 
-Introduction about tests with [pytest](https://realpython.com/pytest-python-testing/). Codes found at : [init](init/)
+Introduction about tests with [pytest](https://realpython.com/pytest-python-testing/). Codes found at [init](init/)
