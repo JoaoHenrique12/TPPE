@@ -1,5 +1,9 @@
 import pytest
 
+@pytest.mark.nomark
+def test_no_mark():
+    assert "U" == "u".upper()
+
 @pytest.mark.boolean
 def test_always_passe():
     assert True

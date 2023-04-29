@@ -39,3 +39,16 @@ Executing tests with mark a or b. The same idea work's for and.
 ```bash
 $ pytest -m "a or b"
 ```
+
+### Mark nomark
+
+Is a convention used in some projects to mark a test without marks.
+
+### Filter by name
+
+The -k option in pytest allows you to filter which tests to run based on their names, using a substring match.
+And, or, not are keywords that work here just like marks.
+
+```bash
+pytest -k "always"
+```
