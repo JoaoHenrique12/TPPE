@@ -12,6 +12,9 @@ $ pytest nome_arquivo_teste.py
 $ pytest folder_with_test/
 ```
 
+## Show output
+Flag -s
+
 ## Marking tests
 
 [REFERENCE](https://docs.pytest.org/en/7.1.x/example/markers.html)
