@@ -17,4 +17,8 @@ Implementing TDD to create [LCS](https://en.wikipedia.org/wiki/Longest_common_su
 
 ### Equivalence partitioning
 
-[Example](equivalence_partitioning/), password project.
+[Example](equivalence_partitioning/), password validation.
+
+### Boundary Analysis
+
+[Example](boundary_analysis/), character's health maximum sum and minimum subtract.
