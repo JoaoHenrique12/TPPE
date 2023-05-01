@@ -11,9 +11,35 @@ Functions for tests must starts with test\_
 $ pytest nome_arquivo_teste.py
 $ pytest folder_with_test/
 ```
+### Verbose option
 
-## Show output
+Flags : -v, -vv, -vvv.
+
+### Show output from std*
 Flag -s
+
+### Durations reports
+
+pytest --durations=3
+
+Show the 3 most slow tests.
+
+## Plugins
+
+### pytest-randomly
+
+Shuffle the order of your tests execution.
+Good for find if your code have stateful dependency.
+
+### pytest-cov
+
+Measure how well your tests cover your implementation.
+
+## pytest-bdd
+
+[link](https://pytest-bdd.readthedocs.io/en/latest/#bdd-library-for-the-pytest-runner).
+
+[Gherkin language](https://docs.behat.org/en/v2.5/guides/1.gherkin.html).
 
 ## Marking tests
 
